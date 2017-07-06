@@ -106,7 +106,7 @@ console.log(greet("Arthur"));
 // sentence: "quick brown fox jumps over the fence"
 // Then, write and example of using the function.
 function madlib(speed, animal, wooden) {
-   console.log("The "  + speed + " "+ "animal" + " jumps over the " + wooden);
+   console.log("The "  + speed + " "+ animal + " jumps over the " + wooden);
   }
 
 madlib("quick", "fox", "fence");
