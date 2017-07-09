@@ -20,7 +20,7 @@ function max(num1, num2) {
 
 function maxOfThree(num1, num2, num3) {
 
-    return num1 + num2 + num3// Your answer here
+    return num1, num2, num3// Your answer here
 }
 
 console.log(maxOfThree(3, 4, 8));
@@ -91,11 +91,12 @@ console.log(greaterThan(5, 8));
 // is the parameter that was passed in.
 // Then, write and example of using the function.
 function greet(name) {
+  name = "Joe";
   return "Hello " + name;
 
 
 }
-console.log(greet("Arthur"));
+console.log(greet(name));
 
 // 9.
 // Write a function called `madlib` that takes 4 or more parameters (words).
